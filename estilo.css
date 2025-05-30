@@ -1,0 +1,22 @@
+<style>
+  body {
+    background-image: url(' https://i.pinimg.com/736x/62/3a/22/623a22f426e6dceacf572c73711fb74c.jpg');
+    background-size: cover;         /* La imagen cubre toda la pantalla */
+    background-repeat: no-repeat;   /* No se repite */
+    background-attachment: fixed;   /* Se queda quieta cuando bajás */
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  ul, ol {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+</style>
