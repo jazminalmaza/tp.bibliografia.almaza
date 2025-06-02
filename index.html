@@ -68,10 +68,66 @@
       font-size: 1rem;
       text-shadow: 1px 1px 2px #000;
     }
+    .formulario {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px auto;
+    padding: 15px;
+    background: rgba(0, 0, 50, 0.5);
+    border-radius: 12px;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    flex-wrap: wrap;
+  }
+
+  .campo {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+  }
+
+  .campo input {
+    width: 140px;
+    padding: 6px;
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+    margin-top: 4px;
+  }
+
+  .boton {
+    background: #6A5ACD;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    margin-top: 20px;
+    transition: 0.3s;
+    height: fit-content;
+    align-self: end;
+  }
+
+  .boton:hover {
+    background: #483D8B;
+    transform: scale(1.05);
+  }
   </style>
 </head>
 <body>
-
+<form class="formulario">
+  <div class="campo">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre">
+  </div>
+  <div class="campo">
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+  </div>
+  <button class="boton" type="submit">Enviar</button>
+</form>
   <header>
     <h1>Hola! Acá tenemos una pequeña biografia sobre mi ⋆˚꩜｡ </h1>
     <p>Pero antes, una foto mía de bebé, tenia que ponerla.</p>
@@ -93,6 +149,7 @@
       <div class="tarjeta">
         <img src="https://i.postimg.cc/P5Xbs8TL/zuky.jpg" alt="Zuky">
         <span>Zuky</span>
+
       </div>
       <div class="tarjeta">
         <img src="https://i.postimg.cc/nccfX010/zuko.jpg" alt="Zuko">
@@ -161,15 +218,15 @@
   <p>Miro mucho sus películas, es uno de mis actores favoritos.</p>
   <div class="galeria">
     <div class="tarjeta">
-      <img src="https://i.pinimg.com/736x/99/36/09/9936099f36025e7337f96bbddba5bf9c.jpg" alt="Piratas del Caribe">
-      <span>Piratas del Caribe</span>
+      <img src=" https://i.pinimg.com/736x/d9/bd/bd/d9bdbdd8ba05add28697afdc08f92eab.jpg" alt="el jinete sin cabeza">
+      <span>el jinete sin cabeza</span>
     </div>
     <div class="tarjeta">
-      <img src="https://i.pinimg.com/474x/dd/92/53/dd9253d2e2e9cab558affe8bed78a4c7.jpg" alt="El joven manos de tijera">
-      <span>El joven manos de tijera</span>
+      <img src="https://i.pinimg.com/736x/28/86/42/288642a987d265a0949bf21a678d1b31.jpg " alt="Piratas del caribe">
+      <span>Piratas del caribe</span>
     </div>
     <div class="tarjeta">
-      <img src="https://i.pinimg.com/474x/be/74/6a/be746a89a76a9bcb7c2c9ef75ff4c905.jpg" alt="Alicia en el país de las maravillas">
+      <img src=" https://i.pinimg.com/736x/cc/95/53/cc955334a90d0475e4b29dc9b0c3c25a.jpg" alt="Alicia en el país de las maravillas">
       <span>Alicia en el país de las maravillas</span>
     </div>
   </div>
