@@ -7,13 +7,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
   <style>
     body {
-      background-image: url('https://i1.wp.com/www.sopitas.com/wp-content/uploads/2020/04/studio-totoro-fondo.jpg');
+      background-image: url('https://fondosmil.co/fondo/87464.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
       min-height: 100vh;
-      font-family: 'Gloria Hallelujah', serif;
+      font-family: 'Gloria Hallelujah';
       color: white;
       text-align: center;
       padding: 20px;
@@ -21,25 +21,21 @@
     }
 
     h1, h2 {
-      font-family: 'Yeseva One', sans-serif;
+      font-family: 'Yeseva One';
       margin-top: 20px;
-      text-shadow: 1px 1px 3px #000;
+      text-shadow: 1px 1px 3px #010632;
     }
 
     p, ul, ol {
       max-width: 800px;
       margin: 0 auto 20px auto;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 50, 0.5);
       padding: 15px;
       border-radius: 10px;
       text-align: left;
     }
 
-    ul, ol {
-      text-align: left;
-    }
-
-    .galeria {
+    .galeria, .centrado {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -47,128 +43,166 @@
       margin: 20px auto;
     }
 
-    .galeria img {
-      width: 250px;
-      height: auto; /* mantiene proporción natural */
+    .tarjeta {
+      width: 200px;
+      text-align: center;
+    }
+
+    .tarjeta img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
       border-radius: 15px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
       transition: transform 0.3s;
     }
 
-    .galeria img:hover {
+    .tarjeta img:hover {
       transform: scale(1.05);
+    }
+
+    .tarjeta span {
+      display: block;
+      margin-top: 8px;
+      font-weight: bold;
+      font-size: 1rem;
+      text-shadow: 1px 1px 2px #000;
     }
   </style>
 </head>
 <body>
-    <header>
-        <h1>Esta soy yo, Jaz de bebé</h1>
-        <p>Una pequeña historia sobre mí y las cosas que amo.</p>
-        <img src="https://i.postimg.cc/KjFsSHRB/foto-jaz-bebe.jpg" width="350" height="300">
-    </header><section>
+
+  <header>
+    <h1>Hola! Acá tenemos una pequeña biografia sobre mi ⋆˚꩜｡ </h1>
+    <p>Pero antes, una foto mía de bebé, tenia que ponerla.</p>
+    <img src="https://i.postimg.cc/KjFsSHRB/foto-jaz-bebe.jpg" width="350" height="300">
+  </header>
+  <h1> Introducción ₊˚⊹♡ </h1>
+  <section>
+  <h1>Cositas sobre mí</h1>
+  <p>Me llamo Jazmín pero me dicen Jaz. Me gusta mucho el handball y me gustaría poder ir a hacerlo. En sí no me gustan mucho los deportes (en especial educación física, la detesto), pero me gustaría poder jugar handball. AMO las películas de acción y las de terror, como también los videojuegos.</p>
+</section>
+
+  <section>
     <h2>Tengo 5 mascotas:</h2>
-    <ol>
-        <li>Estrellita</li>
-        <li>Zuky</li>
-        <li>Zuko</li>
-        <li>Duko</li>
-        <li>Thor</li>
-    </ol>
-    <div class="centrado">
-        <img src="https://i.postimg.cc/ydgXp4Bv/estrellita.jpg" width="200" height="250">
-        <img src="https://i.postimg.cc/P5Xbs8TL/zuky.jpg" width="200" height="250">
-        <img src="https://i.postimg.cc/nccfX010/zuko.jpg" width="200" height="250">
-        <img src="https://i.postimg.cc/HxwjkBtT/duko.jpg" width="200" height="250">
-        <img src="https://i.postimg.cc/ncNwY2J4/Imagen-de-Whats-App-2025-05-14-a-las-18-56-57-0737a99e.jpg" width="200" height="250">
+    <div class="galeria">
+      <div class="tarjeta">
+        <img src="https://i.postimg.cc/ydgXp4Bv/estrellita.jpg" alt="Estrellita">
+        <span>Estrellita</span>
+      </div>
+      <div class="tarjeta">
+        <img src="https://i.postimg.cc/P5Xbs8TL/zuky.jpg" alt="Zuky">
+        <span>Zuky</span>
+      </div>
+      <div class="tarjeta">
+        <img src="https://i.postimg.cc/nccfX010/zuko.jpg" alt="Zuko">
+        <span>Zuko</span>
+      </div>
+      <div class="tarjeta">
+        <img src="https://i.postimg.cc/HxwjkBtT/duko.jpg" alt="Duko">
+        <span>Duko</span>
+      </div>
+      <div class="tarjeta">
+        <img src="https://i.postimg.cc/ncNwY2J4/Imagen-de-Whats-App-2025-05-14-a-las-18-56-57-0737a99e.jpg" alt="Thor">
+        <span>Thor</span>
+      </div>
+    </div>
+  </section>
+
+<section>
+  <h1>¡Cosas que me gusta hacer!</h1>
+  <ul>
+    <li>Leer, sobre todo ciencia ficción y fantasía.</li>
+    <li>Tomar mate cocido.</li>
+    <li>Jugar Roblox con mis amigas.</li>
+    <li>Ver series y películas, mi pasatiempo favorito.</li>
+    <li>Tocar el piano.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Mis películas favoritas:</h2>
+  <div class="galeria">
+    <div class="tarjeta">
+      <img src="https://i.pinimg.com/474x/9b/69/a5/9b69a526b1616ca8dc0e020903ae5343.jpg" alt="Mr. Fox">
+      <span>Fantastic Mr. Fox</span>
+    </div>
+    <div class="tarjeta">
+      <img src="https://i.pinimg.com/474x/ee/c7/4b/eec74b41359a890f9f30ccbf0fea6401.jpg" alt="Spirited Away">
+      <span>Spirited Away</span>
+    </div>
+    <div class="tarjeta">
+      <img src="https://i.pinimg.com/474x/f0/72/51/f07251fec707395a2539feef354eb788.jpg" alt="Jack">
+      <span>El increíble mundo de Jack</span>
+    </div>
+  </div>
+</section>
+
+ <section>
+  <h2>Mis juegos favoritos:</h2>
+  <div class="galeria">
+    <div class="tarjeta">
+      <img src="https://i.pinimg.com/736x/2d/d7/bb/2dd7bb0533e2b9c363160a38d9527039.jpg" alt="Resident Evil 4">
+      <span>Resident Evil 4</span>
+    </div>
+    <div class="tarjeta">
+      <img src="https://i.pinimg.com/474x/a8/75/b2/a875b2bdfdc064b68c75edb30983b8de.jpg" alt="Roblox">
+      <span>Roblox</span>
+    </div>
+    <div class="tarjeta">
+      <img src="https://i.pinimg.com/474x/bd/b4/4b/bdb44b69096017b3768848f0bc904ad6.jpg" alt="Hollow Knight">
+      <span>Hollow Knight</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Mis pelis favoritas de Johnny Depp:</h2>
+  <p>Miro mucho sus películas, es uno de mis actores favoritos.</p>
+  <div class="galeria">
+    <div class="tarjeta">
+      <img src="https://i.pinimg.com/736x/99/36/09/9936099f36025e7337f96bbddba5bf9c.jpg" alt="Piratas del Caribe">
+      <span>Piratas del Caribe</span>
+    </div>
+    <div class="tarjeta">
+      <img src="https://i.pinimg.com/474x/dd/92/53/dd9253d2e2e9cab558affe8bed78a4c7.jpg" alt="El joven manos de tijera">
+      <span>El joven manos de tijera</span>
+    </div>
+    <div class="tarjeta">
+      <img src="https://i.pinimg.com/474x/be/74/6a/be746a89a76a9bcb7c2c9ef75ff4c905.jpg" alt="Alicia en el país de las maravillas">
+      <span>Alicia en el país de las maravillas</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Mis artistas favoritos:</h2>
+  <p>No me gusta el metal, pero escucho mucho pop y rock argentino.</p>
+  <div class="galeria">
+    <div class="tarjeta">
+      <img src="https://i.pinimg.com/736x/65/83/1f/65831f7d2f64c8277ce544565c5992b9.jpg" alt="The weeknd">
+      <span>The weeknd</span>
+    </div>
+    <div class="tarjeta">
+      <img src="https://i.pinimg.com/736x/3d/3b/41/3d3b4196124f3de594cba66c9d4a7239.jpg" alt="Melanie Martinez">
+      <span>Melanie Martinez</span>
+    </div>
+    <div class="tarjeta">
+      <img src="https://i.pinimg.com/736x/f3/25/d1/f325d16f7ac7e1d200a188909226413a.jpg" alt=" Lady Gaga">
+      <span>Lady Gaga</span>
+    </div>
+    <div class="tarjeta">
+      <img src="https://i.pinimg.com/736x/37/e8/6d/37e86d9db4ee2d581e1f7d1d84938fda.jpg" alt="Jungkook">
+      <span>Jungkook</span>
+    </div>
+    <div class="tarjeta">
+      <img src="https://i.pinimg.com/736x/39/cf/8f/39cf8f0c9295be820fcb6b14f2e43b9e.jpg" alt="Lana del Rey">
+      <span>Lana del rey</span>
     </div>
 </section>
-
 <section>
-    <h1>Cosas que me gusta hacer!!!</h1>
-    <ul>
-        <li>Leer, sobre todo ciencia ficción y fantasía.</li>
-        <li>Tomar mate cocido.</li>
-        <li>Jugar Roblox con mis amigas</li>
-        <li>Ver series y películas, mi pasatiempo favorito.</li>
-        <li>Tocar el piano.</li>
-    </ul>
+  <h2>Mi trabajo soñado</h2>
+  <p>Desde chica quiero trabajar con animales. Este año decidí que quiero ser bióloga marina. Me cuesta elegir dónde estudiar, estoy entre Puerto Madryn, Bahía Blanca o Mar del Plata. Me encanta la naturaleza y quiero dedicarme a protegerla.</p>
 </section>
-
-<section>
-    <h1>Cositas sobre mí</h1>
-    <p>
-        Me llamo Jazmín pero me dicen Jaz, me gusta mucho el handball y me gustaría poder ir a hacerlo. En sí no me gustan
-        mucho los deportes (en especial educación física, la detesto), pero me gustaría poder jugar handball.
-        AMO las películas de acción y las de terror, como también los videojuegos.
-    </p>
-</section>
-
-<section>
-    <h2>Mis películas favoritas:</h2>
-    <ul>
-        <li>Fantastic Mr. Fox</li>
-        <li>Spirited Away</li>
-        <li>El increíble mundo de Jack</li>
-    </ul>
-    <div class="centrado">
-        <img src="https://i.pinimg.com/474x/9b/69/a5/9b69a526b1616ca8dc0e020903ae5343.jpg" width="200" height="300">
-        <img src="https://i.pinimg.com/474x/ee/c7/4b/eec74b41359a890f9f30ccbf0fea6401.jpg" width="200" height="300">
-        <img src="https://i.pinimg.com/474x/f0/72/51/f07251fec707395a2539feef354eb788.jpg" width="200" height="300">
-    </div>
-</section>
-
-<section>
-    <h2>Mis juegos favoritos:</h2>
-    <ul>
-        <li>Resident Evil 4</li>
-        <li>Roblox</li>
-        <li>Hollow Knight</li>
-    </ul>
-    <div class="centrado">
-        <img src="https://i.pinimg.com/736x/2d/d7/bb/2dd7bb0533e2b9c363160a38d9527039.jpg" width="200" height="300">
-        <img src="https://i.pinimg.com/474x/a8/75/b2/a875b2bdfdc064b68c75edb30983b8de.jpg" width="200" height="300">
-        <img src="https://i.pinimg.com/474x/bd/b4/4b/bdb44b69096017b3768848f0bc904ad6.jpg" width="200" height="300">
-    </div>
-</section>
-
-<section>
-    <p>Miro mucho las películas de Johnny Depp, es uno de mis actores favoritos.</p>
-    <h2>Mis pelis favs de Johnny Depp:</h2>
-    <div class="centrado">
-        <img src="https://i.pinimg.com/736x/99/36/09/9936099f36025e7337f96bbddba5bf9c.jpg" width="200" height="300">
-        <img src="https://i.pinimg.com/474x/dd/92/53/dd9253d2e2e9cab558affe8bed78a4c7.jpg" width="200" height="300">
-        <img src="https://i.pinimg.com/474x/be/74/6a/be746a89a76a9bcb7c2c9ef75ff4c905.jpg" width="200" height="300">
-    </div>
-</section>
-
-<section>
-    <p>No me gusta el metal, pero escucho mucho pop y rock argentino.</p>
-    <h2>Mis artistas favoritos son:</h2>
-    <div class="centrado">
-        <img src="https://i.pinimg.com/736x/65/83/1f/65831f7d2f64c8277ce544565c5992b9.jpg" width="200" height="300">
-        <img src="https://i.pinimg.com/736x/3d/3b/41/3d3b4196124f3de594cba66c9d4a7239.jpg" width="200" height="300">
-        <img src="https://i.pinimg.com/736x/f3/25/d1/f325d16f7ac7e1d200a188909226413a.jpg" width="200" height="300">
-        <img src="https://i.pinimg.com/736x/37/e8/6d/37e86d9db4ee2d581e1f7d1d84938fda.jpg" width="200" height="300">
-        <img src="https://i.pinimg.com/736x/39/cf/8f/39cf8f0c9295be820fcb6b14f2e43b9e.jpg" width="200" height="300">
-        <img src="https://i.pinimg.com/736x/55/65/b3/5565b3c8150b3d57b00ee941567ab9c8.jpg" width="200" height="300">
-    </div>
-</section>
-
-<section>
-    <p>Amo desayunar y merendar, creo que es la mejor parte del día. En la merienda o el desayuno siempre tomo
-        café con leche o mate cocido (mis bebidas calientes favoritas), con tostadas con algo, puede ser palta con huevo o
-        manteca. Suelo comer más salado que dulce, no soy muy fan de las tortas o cosas muy empalagosas. Prefiero los bizcochitos
-        o las tortas fritas.</p>
-</section>
-
-<section>
-    <h2>Mi trabajo soñado</h2>
-    <p>Desde que tengo memoria siempre quise estudiar y trabajar algo relacionado a los animales, la naturaleza en general es algo que adoro.
-        Este año decidí que quiero ser bióloga marina. Me costó mucho ya que siento que me gustaría estudiar todo tipo de animales,
-        tanto de tierra como de agua, pero supongo que no puedo hacer todo. Estoy entre ir a la universidad de Puerto Madryn,
-        la de Bahía Blanca o Mar del Plata. Aún no me decido porque no conozco mucho, solo Puerto Madryn porque pasamos a visitar
-        en uno de mis viajes a la playa, pero todavía no me convence.</p>
-</section>
-
 </body>
 </html>
