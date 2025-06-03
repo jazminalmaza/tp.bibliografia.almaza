@@ -4,10 +4,7 @@
   <head>
   <meta charset="UTF-8">
   <title>Biografía completa sobre Jaz</title>
-
-  <!-- Carga correcta de las fuentes desde Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Gloria+Hallelujah&display=swap" rel="stylesheet">
-
   <style>
     body {
       background-image: url('https://fondosmil.co/fondo/87464.jpg');
@@ -22,13 +19,11 @@
       padding: 20px;
       margin: 0;
     }
-
     h1, h2 {
       font-family: 'Yeseva One', cursive;
       margin-top: 20px;
       text-shadow: 1px 1px 3px #010632;
     }
-
     p, ul, ol {
       max-width: 800px;
       margin: 0 auto 20px auto;
@@ -37,43 +32,59 @@
       border-radius: 10px;
       text-align: left;
     }
-
-    .galeria, .centrado {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 20px;
-      margin: 20px auto;
-    }
-
-    .tarjeta {
-      width: 200px;
-      text-align: center;
-    }
-
-    .tarjeta img {
-  width: 100%;
-  height: 250px;
+    .galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px auto;
+}
+ .mascota,
+.pelicula,
+.juego,
+.johnny,
+.viaje,
+.artista {
+  width: 200px;
+  text-align: center;
+}
+.mascota img,
+.pelicula img,
+.juego img,
+.johnny img,
+.viaje img,
+.artista img {
+  width: 180px;
+  height: 200px;
+  max-width: 100%;
   object-fit: cover;
-  border-radius: 12px;
-  border: 4px solid rgba(255, 255, 255, 0.7); /* Marco blanco suave */
-  box-shadow: 0 4px 15px rgba(186, 146, 255, 0.4); /* Sombra lavanda */
+  border-radius: 15px;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 10px rgba(186, 146, 255, 0.5);
   transition: transform 0.3s, box-shadow 0.3s;
+  display: block;
 }
-
-.tarjeta img:hover {
+.mascota img:hover,
+.pelicula img:hover,
+.juego img:hover,
+.johnny img:hover,
+.viaje img:hover,
+.artista img:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 18px rgba(186, 146, 255, 0.6); /* Más brillo al pasar el mouse */
+  box-shadow: 0 6px 14px rgba(186, 146, 255, 0.7);
 }
-
-    .tarjeta span {
-      display: block;
-      margin-top: 8px;
-      font-weight: bold;
-      font-size: 1rem;
-      text-shadow: 1px 1px 2px #000;
-    }
-
+.mascota span,
+.pelicula span,
+.juego span,
+.johnny span,
+.viaje span,
+.artista span {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  text-shadow: 1px 1px 2px #000;
+}
     .formulario {
       display: flex;
       justify-content: center;
@@ -102,7 +113,7 @@
       margin-top: 4px;
     }
 
-    .boton {
+    .boton { 
       background: #6A5ACD;
       color: white;
       padding: 8px 14px;
@@ -148,23 +159,23 @@
   <section>
     <h2>Tengo 5 mascotas:</h2>
     <div class="galeria">
-      <div class="tarjeta">
+      <div class="mascota">
         <img src="https://i.postimg.cc/ydgXp4Bv/estrellita.jpg" alt="Estrellita">
         <span>Estrellita</span>
       </div>
-      <div class="tarjeta">
+      <div class="mascota">
         <img src="https://i.postimg.cc/P5Xbs8TL/zuky.jpg" alt="Zuky">
         <span>Zuky</span>
       </div>
-      <div class="tarjeta">
+      <div class="mascota">
         <img src="https://i.postimg.cc/nccfX010/zuko.jpg" alt="Zuko">
         <span>Zuko</span>
       </div>
-      <div class="tarjeta">
+      <div class="mascota">
         <img src="https://i.postimg.cc/HxwjkBtT/duko.jpg" alt="Duko">
         <span>Duko</span>
       </div>
-      <div class="tarjeta">
+      <div class="mascota">
         <img src="https://i.postimg.cc/ncNwY2J4/Imagen-de-Whats-App-2025-05-14-a-las-18-56-57-0737a99e.jpg" alt="Thor">
         <span>Thor</span>
       </div>
@@ -183,15 +194,15 @@
 <section>
   <h2>Mis películas favoritas:</h2>
   <div class="galeria">
-    <div class="tarjeta">
+    <div class="pelicula">
       <img src="https://i.pinimg.com/474x/9b/69/a5/9b69a526b1616ca8dc0e020903ae5343.jpg" alt="Mr. Fox">
       <span>Fantastic Mr. Fox</span>
     </div>
-    <div class="tarjeta">
+    <div class="pelicula">
       <img src="https://i.pinimg.com/474x/ee/c7/4b/eec74b41359a890f9f30ccbf0fea6401.jpg" alt="Spirited Away">
       <span>Spirited Away</span>
     </div>
-    <div class="tarjeta">
+    <div class="pelicula">
       <img src="https://i.pinimg.com/474x/f0/72/51/f07251fec707395a2539feef354eb788.jpg" alt="Jack">
       <span>El increíble mundo de Jack</span>
     </div>
@@ -200,15 +211,15 @@
  <section>
   <h2>Mis juegos favoritos:</h2>
   <div class="galeria">
-    <div class="tarjeta">
+    <div class="juego">
       <img src="https://i.pinimg.com/736x/2d/d7/bb/2dd7bb0533e2b9c363160a38d9527039.jpg" alt="Resident Evil 4">
       <span>Resident Evil 4</span>
     </div>
-    <div class="tarjeta">
+    <div class="juego">
       <img src="https://i.pinimg.com/474x/a8/75/b2/a875b2bdfdc064b68c75edb30983b8de.jpg" alt="Roblox">
       <span>Roblox</span>
     </div>
-    <div class="tarjeta">
+    <div class="juego">
       <img src="https://i.pinimg.com/474x/bd/b4/4b/bdb44b69096017b3768848f0bc904ad6.jpg" alt="Hollow Knight">
       <span>Hollow Knight</span>
     </div>
@@ -218,40 +229,41 @@
   <h2>Mis pelis favoritas de Johnny Depp:</h2>
   <p>Miro mucho sus películas, es uno de mis actores favoritos.</p>
   <div class="galeria">
-    <div class="tarjeta">
+    <div class="johnny">
       <img src=" https://i.pinimg.com/736x/d9/bd/bd/d9bdbdd8ba05add28697afdc08f92eab.jpg" alt="el jinete sin cabeza">
       <span>el jinete sin cabeza</span>
     </div>
-    <div class="tarjeta">
+    <div class="johnny">
       <img src="https://i.pinimg.com/736x/28/86/42/288642a987d265a0949bf21a678d1b31.jpg " alt="Piratas del caribe">
       <span>Piratas del caribe</span>
     </div>
-    <div class="tarjeta">
+    <div class="johnny">
       <img src=" https://i.pinimg.com/736x/cc/95/53/cc955334a90d0475e4b29dc9b0c3c25a.jpg" alt="Alicia en el país de las maravillas">
       <span>Alicia en el país de las maravillas</span>
+      </div>
     </div>
 </section>
 <section>
   <h2>Mis artistas favoritos:</h2>
   <p>No me gusta el metal, pero escucho mucho pop y rock argentino.</p>
   <div class="galeria">
-    <div class="tarjeta">
+    <div class="artista">
       <img src="https://i.pinimg.com/736x/65/83/1f/65831f7d2f64c8277ce544565c5992b9.jpg" alt="The weeknd">
       <span>The weeknd</span>
     </div>
-    <div class="tarjeta">
+    <div class="artista">
       <img src="https://i.pinimg.com/736x/3d/3b/41/3d3b4196124f3de594cba66c9d4a7239.jpg" alt="Melanie Martinez">
       <span>Melanie Martinez</span>
     </div>
-    <div class="tarjeta">
+    <div class="artista">
       <img src="https://i.pinimg.com/736x/f3/25/d1/f325d16f7ac7e1d200a188909226413a.jpg" alt=" Lady Gaga">
       <span>Lady Gaga</span>
     </div>
-    <div class="tarjeta">
+    <div class="artista">
       <img src="https://i.pinimg.com/736x/37/e8/6d/37e86d9db4ee2d581e1f7d1d84938fda.jpg" alt="Jungkook">
       <span>Jungkook</span>
     </div>
-    <div class="tarjeta">
+    <div class="artista">
       <img src="https://i.pinimg.com/736x/39/cf/8f/39cf8f0c9295be820fcb6b14f2e43b9e.jpg" alt="Lana del Rey">
       <span>Lana del rey</span>
     </div>
@@ -261,37 +273,37 @@
   <p>Desde chica quiero trabajar con animales. Este año decidí que quiero ser bióloga marina. Me cuesta elegir dónde estudiar, estoy entre Puerto Madryn, Bahía Blanca o Mar del Plata. Me encanta la naturaleza y quiero dedicarme a protegerla. ¡A continuación quiero mostrar algunas fotos de los lugares que viajé!</p> 
   <h2> ୧ ‧₊˚ CHILE⋅ ☆ </h2>
   <div class="galeria">
-    <div class="tarjeta">
+  <div class="viaje">
       <img src="https://i.postimg.cc/76wqPh9Y/Imagen-chile1.jpg" alt="Chile 1">
     </div>
-    <div class="tarjeta">
+    <div class="viaje">
       <img src="https://i.postimg.cc/1tBs8S70/imagen-chile-2.jpg" alt="Chile 2">
     </div>
-    <div class="tarjeta">
+    <div class="viaje">
       <img src="https://i.postimg.cc/QCMs5zv2/Imagen-chile3.jpg" alt="Chile 3">
     </div>
   </div>
   <h2> ୧ ‧₊˚ MOQUEHUE ⋅ ☆</h2>
   <div class="galeria">
-    <div class="tarjeta">
+    <div class="viaje">
       <img src="https://i.postimg.cc/9F8PGqwK/imagen-moquehue1.jpg" alt="Moquehue 1">
     </div>
-    <div class="tarjeta">
+    <div class="viaje">
       <img src="https://i.postimg.cc/zGyCpXnB/Imagen-moquehue2.jpg" alt="Moquehue 2">
     </div>
-    <div class="tarjeta">
+    <div class="viaje">
       <img src="https://i.postimg.cc/GhhJ8jtv/Imagen-moquehue3.jpg" alt="Moquehue 3">
     </div>
   </div>
   <h2> ୧ ‧₊˚ PLAYAS DORADAS ⋅ ☆</h2>
   <div class="galeria">
-    <div class="tarjeta">
+    <div class="viaje">
       <img src="https://i.postimg.cc/zX7Npqq9/Imagen-playa1.jpg " alt="Playa 1">
     </div>
-    <div class="tarjeta">
+    <div class="viaje">
       <img src="https://i.postimg.cc/qM408NHs/Imagen-playa2.jpg" alt="Playa 2">
     </div>
-    <div class="tarjeta">
+    <div class="viaje">
       <img src="https://i.postimg.cc/YCSHsT9j/Imagen-playa3.jpg" alt="Playa 3">
     </div>
   </div>
